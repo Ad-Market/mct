@@ -6,5 +6,5 @@ items:
     url: "#"
   - text: Be
     url: "#"
-  - text: Blog
-    url: "/blog"
+  - text: Herald
+    url: "/herald"
