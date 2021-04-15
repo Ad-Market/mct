@@ -1,12 +1,12 @@
 ---
-title: Dear Baoinvestor, JB, Uni, Evan, and the LP pioneers
+title: Dear Baoinvestor, Son's of Baoman, JB, Uni, Evan, and the LP pioneers
 description: I was just messing around but you all made $puppr possible. Thank you!
 date: 2021-04-15T12:13:13.021Z
 author: Fran Swan
 tags: puppr
 ---
 
-To: Baoinvestor, JB, Uni, Evan, and the LP pioneers
+To: Baoinvestor, Son's of Baoman, JB, Uni, Evan, and the LP pioneers
 
 CC: Peter Schiff
 
