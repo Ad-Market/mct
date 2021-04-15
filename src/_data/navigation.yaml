@@ -1,10 +1,10 @@
 ---
 items:
-  - text: Menu One
+  - text: There
     url: "#"
-  - text: Menu Two
+  - text: Will
     url: "#"
-  - text: Menu Three
+  - text: Be
     url: "#"
-  - text: Blog
+  - text: Pages
     url: "/blog"

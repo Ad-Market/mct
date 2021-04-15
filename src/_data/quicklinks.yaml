@@ -1,14 +1,17 @@
 ---
 links:
-  - title: Netlify CMS
-    url: "https://www.netlifycms.org/"
-    desc: Open source content management for your Git workflow
-  - title: Eleventy
-    url: "https://www.11ty.dev/"
-    desc: Eleventy is a simpler static site generator.
-  - title: Alpine.js
-    url: "https://github.com/alpinejs/alpine"
-    desc: A minimal framework for composing JavaScript behavior in your markup.
-  - title: Tailwind CSS
-    url: "https://tailwindcss.com/"
-    desc: A utility-first CSS framework for rapidly building custom designs.
+  - title: Telegram
+    url: "https://www.tm.me/pupprtoken"
+    desc: Ask questions. Hang out. 
+  - title: Twitter
+    url: "https://www.twitter.com/puppertoken/"
+    desc: Jack Dorsey's wesbite.
+  - title: puppr.wtf
+    url: "https://thefranswan.gitbook.io/puppr/"
+    desc: Learn about $puppr 
+  - title: Buy $PUPPR
+    url: "https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x845b705996F4235E7E0b792d57D4bC452BA6f748"
+    desc: USDC/PUPPR pair trading on PancakeSwap
+  - title: GitHub
+    url: "https://github.com/franswan/puppr"
+    desc: The computer codes
