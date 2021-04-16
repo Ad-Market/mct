@@ -6,7 +6,7 @@ author: Fran Swan
 tags: puppr
 ---
 
-Ethan, 
+Evan, 
 
 
 I had bought the puppr.country domain name intending it to be for the "farming" website.
@@ -22,7 +22,8 @@ Nice name for a farm if you ask me. "Headed out to Puppr Country folks."  We mig
 
 ### $CNTRY
 
-Fork Statera.sol to Country.sol https://github.com/StateraProject/statera-token/blob/master/contracts/Statera.sol
+Fork Statera.sol to Country.sol 
+https://github.com/StateraProject/statera-token/blob/master/contracts/Statera.sol
 
 Make BSC compatible/optimized
 
