@@ -11,9 +11,11 @@ Ethan,
 
 I had bought the puppr.country domain name intending it to be for the "farming" website.
 
+Now about the tokens.
+
 We have **$puppr** now. Check.
 
-Make $cntry (Country) 
+Make **$cntry** (Country) 
 
 Nice name for a farm if you ask me. "Headed out to Puppr Country folks."  We might not need any more xSwap names by now anyway.
 
