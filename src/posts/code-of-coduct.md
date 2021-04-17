@@ -1,5 +1,5 @@
 ---
-title: Code of Conduct 
+title: Code of Conduct v0.0.1 
 description: Dear Shitlords, This is not the token of Antifa, the Alt-right, the Masons, Shriners, or Janet's quilting group.
 date: 2021-04-17T16:08:00.021Z
 author: Fran Swan
