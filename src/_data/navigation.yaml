@@ -1,10 +1,4 @@
 ---
 items:
-  - text: There
-    url: "#"
-  - text: Will
-    url: "#"
-  - text: Be
-    url: "#"
   - text: Blog
     url: "/blog"
