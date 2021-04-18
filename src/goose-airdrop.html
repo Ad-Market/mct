@@ -1,0 +1,74 @@
+---
+layout: default
+title: Puppr Airdrop to Goose Holders
+path: goose-airdrop
+---
+
+
+<body class="font-mono bg-gray-400">
+  <!-- Container -->
+  <div class="container mx-auto">
+    <div class="flex justify-center px-6 my-12">
+      <!-- Row -->
+      <div class="w-full xl:w-3/4 lg:w-11/12 flex">
+        <!-- Col -->
+        <div
+          class="w-full h-auto bg-gray-400 hidden lg:block lg:w-1/2 bg-cover rounded-l-lg"
+          style="background-image: url('/static/img/goose.gif')"
+        ></div>
+        <!-- Col -->
+        <div class="w-full lg:w-1/2 bg-white p-5 rounded-lg lg:rounded-l-none">
+          <div class="px-8 mb-4 text-center">
+            <h3 class="pt-4 mb-2 text-2xl">Goose Airdrop</h3>
+            <p class="mb-4 text-sm text-yellow-600">
+              Welcome Goose Holders. 
+            </p>
+            <p class="mb-4 text-sm text-gray-700">
+              You heard the call! We will be dropping PUPPR to many of you Gooses. Follow us on Twitter and supply your BSC address below. 
+            </p>
+          </div>
+          <form class="px-8 pt-6 pb-8 mb-4 bg-white rounded" method="POST" action="/good-goose" name="Goose Airdrop" netlify>
+            <div class="mb-4">
+              <label class="block mb-2 text-sm font-bold text-gray-700" for="telegram">
+                Twitter Name
+              </label>
+              <input
+                class="w-full px-3 py-2 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+                id="twitter"
+                name="twitter"
+                type="text"
+                placeholder="@FormattedThisWay"
+              />
+            </div>
+            <div class="mb-4">
+              <label class="block mb-2 text-sm font-bold text-gray-700" for="telegram">
+                BSC Address
+              </label>
+              <input
+                class="w-full px-3 py-2 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+                id="email"
+                name="bscaddress"
+                type="text"
+                placeholder="0x000000000000000000000000000000000000000"
+              />
+            </div>
+            <div class="mb-6 text-center">
+              <button
+                class="w-full px-4 py-2 font-bold text-white bg-yellow-500 rounded-full hover:bg-yellow-700 focus:outline-none focus:shadow-outline"
+                type="submit"
+              >
+                Fly!!!
+              </button>
+            </div>
+            <hr class="mb-6 border-t" />
+            <div class="text-center">
+              <p class="mb-4 text-sm text-gray-700">
+                If hold 50 or more $egg in your wallet you will recieve the Airdrop.</p>
+                <p class="mb-4 text-sm text-gray-700">250 PUPPR each.</p> 
+                <p class="mb-4 text-sm text-gray-700">Add PUPPR to your BSC wallet: 0x845b705996f4235e7e0b792d57d4bc452ba6f748</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
