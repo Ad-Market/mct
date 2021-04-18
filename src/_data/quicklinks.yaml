@@ -2,16 +2,19 @@
 links:
   - title: Telegram
     url: "https://www.t.me/pupprtoken"
-    desc: Ask questions. Hang out. 
+    desc: Ask questions and hang out
   - title: Twitter
     url: "https://www.twitter.com/puppertoken/"
-    desc: Jack Dorsey's wesbite.
+    desc: Jack Dorsey's wesbite
   - title: puppr.wtf
     url: "https://thefranswan.gitbook.io/puppr/"
     desc: Learn about $puppr 
   - title: Buy $PUPPR
     url: "https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d&outputCurrency=0x845b705996f4235e7e0b792d57d4bc452ba6f748"
     desc: USDC/PUPPR pair trading on PancakeSwap
+  - title: Airdrops
+    url: "https://puppr.town/airdrops/"
+    desc: Be ready
   - title: GitHub
     url: "https://github.com/franswan/puppr"
     desc: The computer codes
