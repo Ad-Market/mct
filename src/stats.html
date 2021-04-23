@@ -1,0 +1,66 @@
+---
+layout: default
+title: Puppr Stats
+path: stats
+---
+
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/gh/bitquery/widgets@v1.3.8/dist/assets/css/widgets.css">
+<script src="https://cdn.jsdelivr.net/gh/bitquery/widgets@v1.3.8/dist/widgets.js"></script>
+<div id="dex_exchanges"></div>
+<script>
+    (function(){
+    widgets.init('https://graphql.bitquery.io', 'BQY8IPItkNCP0iK8BqvmhSWV1pxpFqrB', {locale: 'en', theme: 'light'});
+    var query = new widgets.query(`
+                        query ($network: EthereumNetwork!,
+
+                                $token: String!,
+                                $from: ISO8601DateTime,
+                                $till: ISO8601DateTime,
+                                ){
+                    ethereum(network: $network){
+                      dexTrades(options:{desc: "amount"},
+                        date: {since: $from till: $till }
+                        baseCurrency: {is: $token}
+                        ) {
+
+                          exchange {
+                            fullName
+                          }
+
+                          trades: count
+                          takers: count(uniq: takers)
+                          makers: count(uniq: makers)
+
+                          amount: baseAmount
+                          baseCurrency{symbol}
+                      }
+                    }
+                  }`);
+    var wdts = new widgets.table('#dex_exchanges', query, 'ethereum.dexTrades', {
+ "title": "DEX Exchanges",
+ "dataOptions": [
+  {
+   "title": "Exchange",
+   "path": "exchange.fullName"
+  },
+  {
+   "title": "Trades Count",
+   "path": "trades"
+  },
+  {
+   "title": "<span class=\"translation_missing\" title=\"translation missing: en.widgets.titles.takers\">Takers</span>",
+   "path": "takers"
+  },
+  {
+   "title": "<span class=\"translation_missing\" title=\"translation missing: en.widgets.titles.makers\">Makers</span>",
+   "path": "makers"
+  },
+  {
+   "title": "Amount",
+   "path": "amount"
+  }
+ ]
+});
+    query.request({"limit": 10, "offset": 0, "network": "bsc", "token": "0x845b705996f4235e7e0b792d57d4bc452ba6f748", "from": null, "till": null, "dateFormat": "%Y-%m"});
+    })()
+</script>
