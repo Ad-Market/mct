@@ -10,8 +10,8 @@ links:
     url: "https://thefranswan.gitbook.io/puppr/"
     desc: Learn about $puppr 
   - title: Buy $PUPPR
-    url: "https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d&outputCurrency=0x845b705996f4235e7e0b792d57d4bc452ba6f748"
-    desc: USDC/PUPPR pair trading on PancakeSwap
+    url: "https://exchange.pancakeswap.finance/#/swap?inputCurrency=0xe9e7cea3dedca5984780bafc599bd69add087d56&outputCurrency=0x845b705996f4235e7e0b792d57d4bc452ba6f748"
+    desc: BUSD/PUPPR pair trading on PancakeSwap
   - title: Airdrops
     url: "https://puppr.town/airdrops/"
     desc: Be ready
