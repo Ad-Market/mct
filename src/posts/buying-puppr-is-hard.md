@@ -1,7 +1,7 @@
 ---
 title: Buying Puppr is Hard
 description: We say, PUPPR is trading on PancakeSwap.
-date: 2021-04-25T13:08:00.021Z
+date: 2021-04-20T13:08:00.021Z
 author: Fran Swan
 tags: puppr
 ---
