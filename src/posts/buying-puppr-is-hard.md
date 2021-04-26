@@ -8,7 +8,7 @@ tags: puppr
 
 It's confusing for many. 
 
-Can we find a **a CEX** that can support our token? Maybe with a stable coin pairing? Mabe too soon.
+Can we find a **a CEX** that can support our token? Maybe with a stable coin pairing? Maybe too soon?
 
 This route to buying is better know to many. Example: Go to Kucoin. Buy Puppr. Do our LP providers prefer we remain focused soley on DEX / Pancake? Might not want to draw attention away from our pools on Pancake.
 
