@@ -164,12 +164,12 @@ async function fetchAccountData() {
     // Fill in the templated row and put in the document
     
     document.querySelector(".balance").textContent = humanFriendlyBalance;
-    // if(humanFriendlyBalance < 0.05){
-    //     //document.getElementById('buyBNB').disabled = true;
-    //     document.getElementById('buyBNB').innerHTML = "<a href='https://binance.com'; target='_blank' style='color:white;' >BUY BNB</a>";
-    // }else{
-    //     document.getElementById('buyBNB').disabled = true;
-    // }
+    if(humanFriendlyBalance < 0.05){
+        //document.getElementById('buyBNB').disabled = true;
+        document.getElementById('buyBNB').innerHTML = "<a href='https://binance.com'; target='_blank' style='color:white;' >BUY BNB</a>";
+    }else{
+        document.getElementById('buyBNB').disabled = true;
+    }
     //document.querySelector(".address").textContent = address;
     //PUPPR Token 
     document.querySelector(".pupprbalance").textContent = humanFriendlyBalance2;
