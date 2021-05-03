@@ -16,9 +16,10 @@
 
 </head>
   <body>
-    <div class="container">
+    <div class="container mx-auto lg:h-screen flex flex-col justify-center items-center">
+
       <div class="row">
-        <div class="col-md-12">
+        <div class="">
         
           <div class="alert alert-danger" id="alert-error-https" style="display: none">
             You can run this example only over HTTPS connection.
@@ -61,17 +62,17 @@
             <hr>
 
            <div class="dashboard">
-            <div class="card">
+            <!-- <div class="card">
                 <div class="card-header">BNB</div>
                 <div class="card-body"><p>MainNetBalance: <span class="balance"></span></p></div>
                 <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow btn-primary" id="buyBNB">BUY BNB</button>
-              </div>
+            </div> -->
             <div class="card">
                 <div class="card-header">PUPPR</div>
                 <div class="card-body"><p>Contract: <span class="puppr"></span></p></div>
                 <div class="card-body"><p>BSCScan: <span class="pupprscan"></span></p></div>
                 <div class="card-footer"><p>Balance: <span class="pupprbalance"></span> PUPPR </p><button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow btn-primary float-right" id="addToken">AddToken</button></div>
-              </div>
+            </div>
               
               <hr>
            </div>
