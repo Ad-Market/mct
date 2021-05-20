@@ -6,7 +6,7 @@ author: Fran Swan
 tags: puppr
 ---
 
-# Letter to the Sons of Baoman
+# Dear Sons of Baoman
 
 50k was dropped to about 13 wallets. All members of the SOB Twitter DM group. 
 
