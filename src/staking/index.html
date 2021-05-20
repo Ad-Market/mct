@@ -31,8 +31,8 @@
             </button>
           </div>
     
-          <!-- <div id="connected" style="display: none"> -->
-          <div id="connected">
+          <div id="connected" style="display: none">
+          <!-- <div id="connected"> -->
             <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow btn-danger" id="btn-disconnect">
               Disconnect wallet
             </button>
@@ -73,21 +73,23 @@
                 <div class="card-body"><p>BSCscan: <span class="pupprscan">0x...</span></p></div>
                 <div class="card-footer"><p>Balance: <span class="pupprbalance">0</span> PUPPR </p><button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow btn-primary float-right" id="addToken">AddToken</button></div>
             </div>
-              
-              <hr>
            </div>
            
-            <div class="info">
-                
+           <!-- Token Info -->
+           <div class="w-full max-w-2xl grid grid-cols-1 lg:grid-cols-2 gap-4 my-8 px-4 lg:mx-0">
+                <div class="p-5 border rounded border-gray-200">1</div>
+                <div class="p-5 border rounded border-gray-200"><span class="totalSupply">10000000</span></div>
+           </div>
+
+            <div class="">     
                     
-                  <div class="row text-center">
-                    <div class="col-sm-3">
-                        <div class="card">
-                        <div class="card-header">TokenInfo</div>
-                        <div class="card-body">TotalSupply<p class="totalSupply"></p></div>
-                        <div class="card-body">TotalStaked<p class="totalStaked"></p></div>
-                      </div>
+                  <div class="row">
+
+                    <div class="p-5 border rounded border-gray-200">
+                        <div">TotalSupply<p class="totalSupply"></p></div>
+                        <div>TotalStaked<p class="totalStaked"></p></div>
                     </div>
+
                     <div class="col-sm-3"><div class="card">
                         <div class="card-header">Stake</div>
                         <div class="card-body"><p>available: <span class="availableStake"></span></p></div>
@@ -108,7 +110,7 @@
                       </div></div>
                   </div>
                   <hr>
-                  <h3>Transfer PUPPR Token</h3>
+                  <h3>Transfer PUPPR</h3>
                   <input type="text" class="form-control" placeholder="Enter value" id="amount">
                   <label for="sendto">Transfer to:</label>
                   <input type="text" class="form-control" placeholder="Enter address" id="to">
